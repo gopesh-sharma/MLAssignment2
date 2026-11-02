@@ -1,4 +1,21 @@
-# MLAssignment2
+## Credit Card Default Classification Portal
+
+#### a. Problem statement
+
+Financial institutions face huge financial risk when credit card clients default on their due payment. Early prediction of potential defaults allows lenders to implement proactive risk-mitigation strategies, such as credit line adjustments or targeted payment reminders. This project aims to build, evaluate, and compare five supervised machine learning models to classify whether a credit card client will default on their next month's payment based on historical payment, billing, and demographic records. The trained models are deployed via an interactive Streamlit web interface for model evaluation.
+
+#### b. Dataset Description
+
+- Dataset Name: Default of Credit Card Clients Dataset   
+- Source: UCI Machine Learning Repository / Kaggle   
+- Instance Count: 30,000 instances   
+- Feature Count: 23 predictive input features   
+- Problem Type: Binary Classification (0 = Non-Default, 1 = Default)   
+- Feature Breakdown:
+   - Demographics: LIMIT_BAL (Credit Limit), SEX, EDUCATION, MARRIAGE, AGE   
+   - Repayment Status (PAY_0 to PAY_6): Past monthly payment status tracking delays from April to September   
+   - Bill Amounts (BILL_AMT1 to BILL_AMT6): Monthly bill statement figures   
+   - Payment Amounts (PAY_AMT1 to PAY_AMT6): Previous monthly payment figures   
 
 === Model Comparison Table ===
          ML Model Name  Accuracy    AUC  Precision  Recall     F1    MCC
